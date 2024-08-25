@@ -27,12 +27,11 @@ read -p "Introduce la primera parte del dominio que necesitas localizar: " subdo
 
 # LISTADO DE SEGUNDA PARTE DEL DOMINIO:
 domains=(
+
 ".dyndns.org"
 ".ddns.net"
-".dyndns.com"
 ".hikonline.es"
 ".hik-online.com"
-".dyndns.com"
 ".hommax-ddns.com"
 ".no-ip.com"
 ".hi-ddns.com"
@@ -59,7 +58,6 @@ domains=(
 ".broke-it.net"
 ".buyshouses.net"
 ".cechire.com"
-".dnsalias.com"
 ".dnsalias.net"
 ".dnsalias.org"
 ".dnsdojo.com"
@@ -73,7 +71,6 @@ domains=(
 ".dontexist.org"
 ".doomdns.com"
 ".doomdns.org"
-".dvrdns.org"
 ".dyn-o-saur.com"
 ".dynalias.com"
 ".dynalias.net"
@@ -84,7 +81,6 @@ domains=(
 ".dyndns-blog.com"
 ".dyndns-free.com"
 ".dyndns-home.com"
-".dyndns-ip.com"
 ".dyndns-mail.com"
 ".dyndns-office.com"
 ".dyndns-pics.com"
@@ -93,9 +89,6 @@ domains=(
 ".dyndns-web.com"
 ".dyndns-wiki.com"
 ".dyndns-work.com"
-".dyndns.biz"
-".dyndns.info"
-".dyndns.tv"
 ".dyndns.ws"
 ".endofinternet.net"
 ".endofinternet.org"
@@ -182,7 +175,6 @@ domains=(
 ".homedns.org"
 ".homeftp.net"
 ".homeftp.org"
-".homeip.net"
 ".homelinux.com"
 ".homelinux.net"
 ".homelinux.org"
@@ -283,7 +275,6 @@ domains=(
 ".likescandy.com"
 ".merseine.com"
 ".merseine.org"
-".mine.nu"
 ".misconfused.org"
 ".mypets.ws"
 ".myphotos.cc"
@@ -298,7 +289,6 @@ domains=(
 ".scrapper-site.net"
 ".scrapping.cc"
 ".selfip.biz"
-".selfip.com"
 ".selfip.info"
 ".selfip.net"
 ".selfip.org"
@@ -327,6 +317,7 @@ domains=(
 ".webhop.org"
 ".worse-than.tv"
 ".writesthisblog.com"
+
 )
 
 # Arreglos para almacenar los dominios encontrados y los que podrían existir
@@ -371,3 +362,4 @@ if [ ${#maybe_domains[@]} -gt 0 ]; then
     echo  -e ${YELLOW}"Dominios que podrían existir:${NC}"
     printf '%s\n' "${maybe_domains[@]}"
 fi
+
