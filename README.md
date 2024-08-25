@@ -1,0 +1,1 @@
+El objetivo del script es facilitar la tarea de búsqueda y gestión de direcciones DDNS, proporcionando una herramienta útil para administradores de redes, técnicos de soporte y cualquier persona que necesite verificar la validez y la información asociada a direcciones DDNS.
